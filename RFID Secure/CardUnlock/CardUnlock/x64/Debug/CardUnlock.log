@@ -1,0 +1,113 @@
+﻿Build started 1/20/2016 10:55:52 AM.
+     1>Project "C:\Users\Noah\Desktop\GIT\RFID-Secure-For-Windows\RFID Secure\CardUnlock\CardUnlock\CardUnlock.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Windows\v1.0\Include" /Zi /nologo /W0 /WX- /Od /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt CardUnlockCredential.cpp CardUnlockProvider.cpp Dll.cpp guid.cpp helpers.cpp RfidListener.cpp Serial.cpp
+         CardUnlockCredential.cpp
+         CardUnlockProvider.cpp
+         Dll.cpp
+         guid.cpp
+         helpers.cpp
+         RfidListener.cpp
+         Serial.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Debug\resources.res" resources.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Noah\Desktop\GIT\RFID-Secure-For-Windows\RFID Secure\CardUnlock\x64\Debug\CardUnlock.dll" /VERBOSE:Lib /INCREMENTAL /NOLOGO /LIBPATH:"C:\program Files\microsoft sdKs\Windows\v1.0\Lib" secur32.lib shlwapi.lib gdi32.lib ole32.lib user32.lib advapi32.lib credui.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"CardUnlock.def" /ASSEMBLYMODULE:secur32.lib /ASSEMBLYRESOURCE:secur32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Noah\Desktop\GIT\RFID-Secure-For-Windows\RFID Secure\CardUnlock\x64\Debug\CardUnlock.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Noah\Desktop\GIT\RFID-Secure-For-Windows\RFID Secure\CardUnlock\x64\Debug\CardUnlock.lib" /MACHINE:X64 /DLL x64\Debug\resources.res
+         x64\Debug\CardUnlockCredential.obj
+         x64\Debug\CardUnlockProvider.obj
+         x64\Debug\Dll.obj
+         x64\Debug\guid.obj
+         x64\Debug\helpers.obj
+         x64\Debug\RfidListener.obj
+         x64\Debug\Serial.obj
+         
+         Searching libraries
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\secur32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shlwapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\credui.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\msvcprt.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\MSVCRT.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\secur32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shlwapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\credui.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\msvcprt.lib:
+         
+         Finished searching libraries
+            Creating library C:\Users\Noah\Desktop\GIT\RFID-Secure-For-Windows\RFID Secure\CardUnlock\x64\Debug\CardUnlock.lib and object C:\Users\Noah\Desktop\GIT\RFID-Secure-For-Windows\RFID Secure\CardUnlock\x64\Debug\CardUnlock.exp
+     1>CardUnlock.exp : warning LNK4070: /OUT:SAMPLEHARDWAREEVENTCREDENTIALPROVIDER.DLL directive in .EXP differs from output filename 'C:\Users\Noah\Desktop\GIT\RFID-Secure-For-Windows\RFID Secure\CardUnlock\x64\Debug\CardUnlock.dll'; ignoring directive
+         
+         Searching libraries
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\secur32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shlwapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\credui.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\msvcprt.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\MSVCRT.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\OLDNAMES.lib:
+         
+         Finished searching libraries
+         
+         Searching libraries
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\secur32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shlwapi.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\credui.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\msvcprt.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\MSVCRT.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\OLDNAMES.lib:
+         
+         Finished searching libraries
+         CardUnlock.vcxproj -> C:\Users\Noah\Desktop\GIT\RFID-Secure-For-Windows\RFID Secure\CardUnlock\x64\Debug\CardUnlock.dll
+     1>Done Building Project "C:\Users\Noah\Desktop\GIT\RFID-Secure-For-Windows\RFID Secure\CardUnlock\CardUnlock\CardUnlock.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.16

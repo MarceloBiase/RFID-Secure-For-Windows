@@ -1,0 +1,1 @@
+schtasks /Create /XML CardLock.xml /TN "Card Lock"

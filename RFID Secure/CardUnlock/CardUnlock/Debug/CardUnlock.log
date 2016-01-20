@@ -1,0 +1,15 @@
+﻿Build started 11/26/2015 10:33:15 AM.
+     1>Project "C:\Users\Noah\Desktop\CardUnlock\CardUnlock\CardUnlock.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Windows\v1.0\Include" /ZI /nologo /W4 /WX /Od /Oy- /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CardUnlockCredential.cpp CardUnlockProvider.cpp Serial.cpp
+         CardUnlockCredential.cpp
+         CardUnlockProvider.cpp
+         Serial.cpp
+     1>c:\users\noah\desktop\cardunlock\cardunlock\serial.cpp(79): error C2220: warning treated as error - no 'object' file generated
+     1>c:\users\noah\desktop\cardunlock\cardunlock\serial.cpp(79): warning C4127: conditional expression is constant
+         Generating Code...
+     1>Done Building Project "C:\Users\Noah\Desktop\CardUnlock\CardUnlock\CardUnlock.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.76

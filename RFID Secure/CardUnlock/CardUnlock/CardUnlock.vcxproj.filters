@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CardUnlockCredential.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CardUnlockProvider.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dll.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="guid.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RfidListener.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CardUnlockCredential.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CardUnlockProvider.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Dll.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="guid.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RfidListener.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Register.reg">
+      <Filter>Utils</Filter>
+    </None>
+    <None Include="Unregister.reg">
+      <Filter>Utils</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{fd9ae20c-8c62-40fd-9de6-69aa60de7c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3c54167e-b5ff-4ca6-bd54-c6f28cd25280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ef46d4fb-236d-42c6-81ac-c2d75ba2796a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{e8c08f47-f69b-414e-9901-9248e4b1eabf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tileimage.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
