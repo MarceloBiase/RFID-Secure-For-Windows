@@ -10,4 +10,4 @@ CardUnlock and CardLock both build in visual studio
 
 The output of both should be added to the system32 folder
 
-Register.reg then needs to be run as admin and AddTask.bat does as well
+Setup.bat must then be run as admin
