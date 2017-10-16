@@ -7,7 +7,7 @@ int main()
 	Serial serial = Serial();
 
 	while (serial.Init("4") == 0)
-		Sleep(200);
+		Sleep(2000);
 
 	serial.Write("auth");
 	if (serial.Read() == 0)
